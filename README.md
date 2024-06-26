@@ -85,6 +85,11 @@ Model Performance:
 The initial model achieved an accuracy of approximately 72%.
 After several optimization attempts, including adjusting the number of neurons and layers, and trying different activation functions, the optimized model achieved a performance slightly higher than 75%.
 
+
+![The optimized model](Image/Model.png)
+
+Contrary to classical expectations, `adam` performs worse than `sgd`, with an `Accuracy` of 0.7521865963935852 compared to `sgd`'s `Accuracy` of 0.7526530623435974, and a `Loss` of 0.49811771512031555 compared to `sgd`'s `Loss` of 0.4973818361759186. This is a reason to study the data further.
+
 Optimization Attempts:
 
 - Working with data 
@@ -107,7 +112,7 @@ These steps could potentially increase the predictive accuracy and make the mode
 1. Clone the repository to your local machine:
 
    ```
-   [git clone https://github.com/NataliiaShevchenko620/CryptoClustering.git](https://github.com/NataliiaShevchenko620/CryptoClustering.git)
+   [git clone https://github.com/NataliiaShevchenko620/deep-learning-challenge.git](https://github.com/NataliiaShevchenko620/deep-learning-challenge.git)
    ```
 
 2. Install the required Python libraries
