@@ -43,7 +43,7 @@ The source dataset includes over 34,000 organizations that have received funding
       - fourth: units=21, activation='linear'
       - fifth: units=28, activation='relu'
       - output: units=1, activation='sigmoid'
-   3. Opmimizer: 
+   3. Optimizer: 'sgd'
    4. Number of epochs: **200**
 
 ![The optimized model](Image/Model.png)
